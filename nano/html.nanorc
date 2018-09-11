@@ -1,0 +1,9 @@
+## Here is a short example for HTML.
+##
+syntax "html" "\.html$"
+color brightyellow start="<" end=">"
+color green "&[^;[[:space:]]]*;"
+
+## Trailing whitespace
+color ,green "[[:space:]]+$"
+
