@@ -2,8 +2,8 @@
 
 # Mine
 
-alias psef='ps -ef'
-alias psgrep='ps -ef | grep'
+alias psaux='ps aux'
+alias psgrep='ps aux | grep -v grep | grep'
 alias ..='cd ..'
 alias ...='cd ../../'
 alias ....='cd ../../../'
