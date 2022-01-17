@@ -43,7 +43,7 @@ set brackets ""')>]}"
 
 ## Constantly display the cursor position in the statusbar.  Note that
 ## this overrides "quickblank".
-set const
+set constantshow
 
 ## Use cut to end of line by default.
 # set cut
@@ -114,7 +114,7 @@ set nowrap
 # set rebinddelete
 
 ## Fix numeric keypad key confusion problem.
-set rebindkeypad
+#set rebindkeypad
 
 ## Do extended regular expression searches by default.
 # set regexp
